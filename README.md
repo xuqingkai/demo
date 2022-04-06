@@ -7,8 +7,10 @@
 - Remote：远程仓库
 
 ### 〇、特殊
-- 已经track的文件，即使在.gitignore中设置，也不管用，需要重新剔除
+- 已经track的文件，即使在.gitignore中设置忽略更新也不管用，需要重新剔除
 - git update-index --assume-unchanged web.config
+- 如果要还原为不要忽略更新的话，使用命令：
+- git update-index --no-assume-unchanged FILE
 
 ### 一、新建代码库
 - 在当前目录新建一个Git代码库
