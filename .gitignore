@@ -1,0 +1,14 @@
+# Common
+*.log
+*log.txt
+log*.txt
+*/[Ll]og/*
+[Rr]untime
+/[Ww]eb.[Cc]onfig
+
+# Mac OS
+*/.DS_Store
+
+# IntelliJ IDEA
+.idea
+
