@@ -2,12 +2,13 @@
 *.log
 *log.txt
 log*.txt
-*/[Ll]og/*
+[Ll]og
 [Rr]untime
+Cache
 /[Ww]eb.[Cc]onfig
 
 # Mac OS
-*/.DS_Store
+.DS_Store
 
 # IntelliJ IDEA
 .idea
